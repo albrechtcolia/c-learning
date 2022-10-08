@@ -2,15 +2,15 @@
 
 int main(int argc, char *argv[])
 {
-    // Simple declaration
+    // Simple declaration.
     char str1 [] = "Iesus";
     printf("str1: %s\n", str1);
 
-    // String elements
+    // String elements.
     printf("str1: %d %c %c %c %c \n",
         str1[0], str1[1], str1[2], str1[3], str1[4]);
 
-    // Static allocated string
+    // Static allocated string.
     char str2 [100];
 
     sprintf(str2, "%s Salvator", str1);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     printf("str4: %c %c %c %c %c \n",
         str4[0], str4[1], str4[2], str4[3], str4[4]);
 
-    // Changing values - 1
+    // Changing values - 1.
     char str5[100];
 
     sprintf(str5,  "Iesus");
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     sprintf(str5,  "Salvator");
     printf("str5: %s\n", str5);
 
-    // Changing values - 2
+    // Changing values - 2.
     char str6[100];
 
     str6[0] = 'G';
