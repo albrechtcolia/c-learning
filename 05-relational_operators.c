@@ -4,7 +4,7 @@ int main(int argc,char *argv[])
 {
     int a = 10, b = 20;
 
-    // Greater/less than or equal to
+    // Greater/less than or equal to.
     if (a >= b)
         printf("A is greater than or equal to B.\n");
     else if (a <= b)
@@ -12,7 +12,7 @@ int main(int argc,char *argv[])
 
     printf("\n");
 
-    // Greater/less than
+    // Greater/less than.
     if (a > b)
         printf("A is greater than B.\n");
     else if (a < b)
