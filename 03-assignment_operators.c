@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-    // Basic operators
+    // Basic operators.
     int number = 10;
 
     printf("1 Value: %d\n", number);
@@ -13,19 +13,19 @@ int main(int argc, char *argv[])
     number--;
     printf("1 Value: %d\n\n", number);
 
-    // Pre-increment
+    // Pre-increment.
     number = 10;
 
     printf("2 Value: %d\n", ++number);
     printf("2 Value: %d\n\n", number);
 
-    // Post-increment
+    // Post-increment.
     number = 10;
 
     printf("3 Value: %d\n", number++);
     printf("3 Value: %d\n\n", number);
 
-    // Assignment operators
+    // Assignment operators.
     number = 10;
 
     number += 10;
