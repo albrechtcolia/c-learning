@@ -4,7 +4,7 @@ int main(int argc,char *argv[])
 {
     int a = 10, b = 20, c = 30;
 
-    // Equal
+    // Equal.
     if (a == b)
         printf("A is equal to B.\n");
     else if (a == c)
@@ -14,7 +14,7 @@ int main(int argc,char *argv[])
 
     printf("\n");
 
-    // Not equal
+    // Not equal.
     if (a != b)
         printf("A isn't equal to B.\n");
     else 
