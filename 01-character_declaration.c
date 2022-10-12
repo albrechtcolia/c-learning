@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
     char ch1 = 'A';
     char ch2 = 65;

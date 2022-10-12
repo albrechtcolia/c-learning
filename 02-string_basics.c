@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
     // Simple declaration.
     char str1 [] = "Iesus";

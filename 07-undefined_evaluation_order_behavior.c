@@ -9,7 +9,7 @@
  * instead of the expected left to right.
  */
 
-int main(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
     int a = 10, b = 20, c = 30;
 
