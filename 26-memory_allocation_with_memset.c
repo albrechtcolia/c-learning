@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
 int main (int argc, char *argv[])
@@ -13,21 +14,14 @@ int main (int argc, char *argv[])
     } 
 
     // Zero memory.
-    for (int a = 0; a < 100; a++)
-        ptr[a] = '\0';
+    memset (ptr, '\0', size);
 
     // Using 'ptr'.
-    ptr[0] = 'G';
-    ptr[1] = 'o';
-    ptr[2] = 'd';
-    ptr[3] = '\0';
-
+    sprintf(ptr, "Iesus");
     printf("ptr: %s\n", ptr);
 
     // Free memory.
-    for (int a = 0; a < 100; a++)
-        ptr[a] = '\0';
-    
+    memset (ptr, '\0', size);
     free (ptr);
 
     return 0;
