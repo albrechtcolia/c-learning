@@ -4,7 +4,7 @@
 
 struct data_s {
     int age;
-    char name [100];
+    char name[100];
 };
 
 typedef struct data_s data_t;

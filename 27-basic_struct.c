@@ -4,7 +4,7 @@
 
 struct data {
     int  age;
-    char name [100];
+    char name[100];
 };
 
 int main (int argc, char *argv[])
