@@ -24,7 +24,6 @@ This is my personal repository covering the basic C topics.
 :bookmark_tabs: Table of Contents
 -----
 * [Exercises](#books-exercises)
-* [Exercises](#books-exercises)
 * [Author](#smiley-author)
 * [License](#scroll-license)
 -----
