@@ -1,7 +1,7 @@
 
 <div align='center'>
 
-<img src="https://raw.githubusercontent.com/c-learning/c-learning/main/images/banner.jpg" >
+<img src="images/banner.jpg" >
 
 </div>
 
