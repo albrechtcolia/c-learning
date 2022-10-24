@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/github/license/albrechtcolia/c-learning" >
 </p>
 
-This is my personal repository covering the basic C topics.
+This is my personal repository covering basic C topics. This repository covers the main subjects that a person interested in learning C needs to know, such as data manipulation, loops, functions, headers, and structs
 
 <b>Project under development.</b>
 
