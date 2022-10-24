@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     int a = GLOBAL_VALUE; // Value loaded from header.
 
-    printf("Valor: %d\n", a);
+    printf("Value: %d\n", a);
 
     return 0;
 }
