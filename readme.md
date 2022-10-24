@@ -7,6 +7,14 @@
 
 <br>
 
+<p align="center">
+    <img src="https://badgen.net/badge/love level/10 of 10/purple" >
+    <img src="https://img.shields.io/github/languages/count/c-learning/c-learning?color=%23f34b7d" >
+    <img src="https://img.shields.io/github/directory-file-count/c-learning/c-learning" >
+    <img src="https://img.shields.io/github/repo-size/c-learning/c-learning" >
+    <img src="https://img.shields.io/github/license/c-learning/c-learning" >
+</p>
+
 This is my personal repository covering the basic C topics.
 
 <b>Project under development.</b>
@@ -15,6 +23,7 @@ This is my personal repository covering the basic C topics.
 
 :bookmark_tabs: Table of Contents
 -----
+* [Exercises](#books-exercises)
 * [Exercises](#books-exercises)
 * [Author](#smiley-author)
 * [License](#scroll-license)
@@ -26,6 +35,7 @@ This is my personal repository covering the basic C topics.
 ---
 
 <b>Basic data manipulation</b>
+
 - 01. Character declaration
 - 02. String basics 
 
