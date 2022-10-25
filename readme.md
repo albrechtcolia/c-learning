@@ -34,7 +34,6 @@ C-learning is my personal personal repository where I cover basic C topics such 
 ---
 
 <b>Basic data manipulation</b>
-
 - 01 - Character declaration
 - 02 - String basics 
 
