@@ -51,7 +51,7 @@ C-learning is my personal personal repository where I cover basic C topics such 
 - 10 - Loop infinite
 - 11 - Break and continue
 
-<b>Character manipulation</b>
+<b>String manipulation</b>
 - 12 - Character handling
 - 13 - Character count
 - 14 - Checking string sizes
