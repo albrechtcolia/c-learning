@@ -67,9 +67,8 @@ int main (int argc, char *argv[]) {
         }
 
         if (a == 15) {
-            for (b = 0; b <= 40; b++) {
+            for (b = 0; b <= 40; b++)
                 string[b] = '-';
-            }
 
             printf("%s\n", string);
         }
