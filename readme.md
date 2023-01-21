@@ -17,8 +17,6 @@
 
 C-learning is my personal personal repository where I cover basic C topics such as data manipulation, loops, structs, functions and headers.
 
-<b>Project under development.</b>
-
 <br>
 
 :bookmark_tabs: Table of Contents
