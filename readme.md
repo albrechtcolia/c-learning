@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/github/license/albrechtcolia/c-learning" >
 </p>
 
-C-learning is my personal personal repository where I cover basic C topics such as data manipulation, loops, structs, functions, macros and headers.
+C-learning is my personal personal repository where I cover the most basic C topics such as data manipulation, loops, structs, functions, macros and headers.
 
 <br>
 
