@@ -5,7 +5,7 @@
 
 int main (int argc, char *argv[])
 {
-    int size    = sizeof(char) * 100;
+    int   size  = sizeof(char) * 100;
     char *str   = (char *) malloc(size);
     char *occr  = (char *) malloc(size);
     char *token = (char *) malloc(size);
