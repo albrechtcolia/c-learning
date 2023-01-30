@@ -94,7 +94,7 @@ C-learning is my personal personal repository where I cover the most basic C top
 <b>Headers</b>
 - 43 - Basic includes
 - 44 - Using headers - functions
-- 45 - Using header - static functions
+- 45 - Using headers - static functions
 
 <br>
 
