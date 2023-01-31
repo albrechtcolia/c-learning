@@ -8,7 +8,7 @@ int main (int argc, char *argv[])
 {
     char str1[] = "Iesus";
     char str2[100];
-    int size;
+    int  size;
 
     // Reset 'str2'.
     for (int a = 0; a < 100 ; a++)

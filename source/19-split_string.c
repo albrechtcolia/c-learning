@@ -9,7 +9,7 @@ int main (int argc, char *argv[])
 {
     char str1[] = "Jesus Christ";
     char str2[100], str3[100];
-    int size;
+    int  size;
 
     // Reset 'str2' and 'str3'.
     for (int a = 0; a < 100; a++) {

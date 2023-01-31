@@ -4,9 +4,9 @@ int main (int argc, char *argv[])
 {
     char ch1 = 'A';
     char ch2 = 65;
-    int ch3 = '1';
-    int ch4 = 49;
-    int ch5;
+    int  ch3 = '1';
+    int  ch4 = 49;
+    int  ch5;
 
     printf("ch1, ch2\n");
     printf("\tchar: %c %c\n", ch1, ch2);

@@ -9,7 +9,7 @@ int main (int argc, char *argv[])
     char str1 [100];
     char str2 [] = "Iesus";
     char str3 [] = " Salvator";
-    int size;
+    int  size;
 
     // Copy str2 to str1.
     for (size = 0; str2[size] != '\0'; size++)
