@@ -3,7 +3,7 @@
 int main (int argc, char *argv[])
 {
     char str[] = "Iesus";
-    int index;
+    int  index;
 
     // Prints every character of my string.
     for (index = 0; str[index] != '\0'; index++)
