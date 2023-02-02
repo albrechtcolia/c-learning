@@ -12,7 +12,7 @@ char func1 ()
 // Returning a dynamically allocated string.
 char *func2 ()
 {
-    int sz = sizeof(char) * 100;
+    int   sz = sizeof(char) * 100;
     char *s = (char *) malloc(sz);
 
     if (!s)

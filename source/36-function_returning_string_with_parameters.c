@@ -5,7 +5,7 @@
 
 char *func1 (char *param)
 {
-    int sz  = sizeof(char) * 100;
+    int   sz  = sizeof(char) * 100;
     char *s = (char *) malloc(sz);
 
     if (!s)
