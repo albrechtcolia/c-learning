@@ -4,7 +4,7 @@
 #include <string.h>
 
 struct data_s {
-    int age;
+    int  age;
     char name[100];
 };
 
@@ -13,7 +13,7 @@ typedef struct data_s data_t;
 int main (int argc, char *argv[])
 {
     data_t *data2;
-    int size;
+    int     size;
 
     // Allocate struct size.
     size    = sizeof(data_t);

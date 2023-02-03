@@ -3,7 +3,7 @@
 #include <string.h>
 
 struct data_s {
-    int age;
+    int  age;
     char name[100];
 };
 
