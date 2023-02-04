@@ -4,7 +4,7 @@
 
 #define GLOBAL_VALUE 10
 
-// Prototype
+// Prototype.
 int calc(int a, int b);
 
 #endif
