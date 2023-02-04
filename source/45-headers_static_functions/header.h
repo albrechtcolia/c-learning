@@ -5,7 +5,7 @@
 #define GLOBAL_VALUE 10
 #define MY_STR       "Iesus Salvator"
 
-// Prototype
+// Prototype.
 int calc(int a, int b);
 
 #endif
