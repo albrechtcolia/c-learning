@@ -15,7 +15,7 @@ int main (int argc, char *argv[])
     * 
     *   Statement 3 - increment/decrement
     *       Is executed every time after the
-    *       code block has been executed..
+    *       code block has been executed.
     */
     
     int a;
