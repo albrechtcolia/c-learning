@@ -14,15 +14,15 @@ int main (int argc, char *argv[])
     } 
 
     // Zero memory.
-    memset (ptr, '\0', size);
+    memset(ptr, '\0', size);
 
     // Using 'ptr'.
     sprintf(ptr, "Iesus");
     printf("ptr: %s\n", ptr);
 
     // Free memory.
-    memset (ptr, '\0', size);
-    free (ptr);
+    memset(ptr, '\0', size);
+    free(ptr);
 
     return 0;
 }
