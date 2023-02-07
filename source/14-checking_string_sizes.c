@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Check if two strings are identical
+ * Check if two strings are identical.
  */
 
 int main (int argc, char *argv[])
