@@ -28,7 +28,7 @@ int main (int argc, char *argv[])
     for (int a = 0; a < 100; a++)
         ptr[a] = '\0';
     
-    free (ptr);
+    free(ptr);
 
     return 0;
 }
