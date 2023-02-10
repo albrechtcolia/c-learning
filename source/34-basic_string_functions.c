@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 
     // Using pointers.
     char *str2;
-    int size;
+    int   size;
 
     size = sizeof(char) * 100;
     str2 = (char *) malloc(size);
