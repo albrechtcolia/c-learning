@@ -6,7 +6,7 @@
 int main (int argc, char *argv[]) {
     int a = 10, b = 20;
 
-    my_printf("Valor: %d + %d = %d\n", a, b, (a + b))
+    my_printf("Value: %d + %d = %d\n", a, b, (a + b))
 
     return 0;
 }
