@@ -16,7 +16,7 @@ int main (int argc, char *argv[])
     sprintf(str2, "%s Salvator", str1);
     printf("str2: %s\n", str2);
 
-    // String set
+    // String set.
     char str3 [] = { 'I', 'e', 's', 'u', 's', '\0'  };
     char str4 [] = { 73, 101, 115, 117, 115, 0      };
 
