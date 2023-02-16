@@ -7,8 +7,8 @@
 
 int main(int argc, char *argv[])
 {
-    int a      = GLOBAL_VALUE; // Value loaded from header.
-    char str[] = MY_STR;
+    int  a      = GLOBAL_VALUE; // Value loaded from header.
+    char str[]  = MY_STR;
 
     printf("Str: %s\n", str);
     printf("Value: %d\n", calc(a, 20));
