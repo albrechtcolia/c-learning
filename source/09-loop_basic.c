@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
     *       Is executed every time after the
     *       code block has been executed.
     */
-    
+
     int a;
 
     for (a = 0; a == 0 || a == 1; a++)
