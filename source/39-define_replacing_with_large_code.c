@@ -8,7 +8,8 @@
     printf("Value 2: %d\n", b);     \
     printf("Value 3: %d\n", c);
 
-int main (int argc, char *argv[]) {
+int main (int argc, char *argv[])
+{
     int a = 10, b = 20;
 
     PRINT_ALL_VARIABLES
