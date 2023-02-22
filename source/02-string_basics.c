@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 
 int main (int argc, char *argv[])
 {
     // Simple declaration.
-    char str1 [] = "Iesus";
+    char str1[] = "Iesus";
     printf("str1: %s\n", str1);
 
     // String elements.
@@ -11,14 +12,14 @@ int main (int argc, char *argv[])
         str1[0], str1[1], str1[2], str1[3], str1[4]);
 
     // Static allocated string.
-    char str2 [100];
+    char str2[100];
 
     sprintf(str2, "%s Salvator", str1);
     printf("str2: %s\n", str2);
 
     // String set.
-    char str3 [] = { 'I', 'e', 's', 'u', 's', '\0'  };
-    char str4 [] = { 73, 101, 115, 117, 115, 0      };
+    char str3[] = { 'I', 'e', 's', 'u', 's', '\0'  };
+    char str4[] = {  73, 101, 115, 117, 115, 0     };
 
     printf("str3: %s\n", str3);
     printf("str4: %s\n", str4);
@@ -58,3 +59,5 @@ int main (int argc, char *argv[])
 
     return 0;
 }
+
+
