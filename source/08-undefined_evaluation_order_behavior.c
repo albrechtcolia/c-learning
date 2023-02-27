@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 
 /**
  * This is an unspecified behavior.
- * The standard does not say what order arguments 
+ * The standard does not say what order arguments
  * should be evaluated in, this is a compiler decision.
- * 
+ *
  * In this case, it processes the arguments right to left
  * instead of the expected left to right.
  */
@@ -35,3 +36,5 @@ int main (int argc, char *argv[])
 
     return 0;
 }
+
+
