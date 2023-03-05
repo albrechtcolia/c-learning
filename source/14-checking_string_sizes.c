@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -29,7 +30,7 @@ int main (int argc, char *argv[])
             }
 
             flag = 1;
-        }       
+        }
 
         if (size1 == 0)
             flag = 1;
@@ -42,3 +43,5 @@ int main (int argc, char *argv[])
 
     return 0;
 }
+
+
