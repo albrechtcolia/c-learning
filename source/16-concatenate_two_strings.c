@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -18,13 +19,13 @@ int main (int argc, char *argv[])
     str1[size] = '\0';
 
     printf("%s\n", str1);
-    
+
     // Concatenate str3 to str1.
     for (size = 0; str1[size] != '\0'; size++);
 
     for (int a = 0; str3[a] != '\0'; a++, size++)
         str1[size] = str3[a];
-    
+
     str1[size] = '\0';
 
     printf("%s\n", str1);
