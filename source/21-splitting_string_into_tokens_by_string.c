@@ -26,7 +26,7 @@ int main (int argc, char *argv[])
             if (c) {
                 token[c] = '\0';
                 c = 0;
-            
+
                 printf("token: %s\n", token);
             }
 
