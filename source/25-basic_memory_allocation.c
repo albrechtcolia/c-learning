@@ -10,7 +10,7 @@ int main (int argc, char *argv[])
     if (!ptr) {
         printf("malloc failed.\n");
         exit(-1);
-    } 
+    }
 
     // Zero memory.
     for (int a = 0; a < 100; a++)
@@ -27,7 +27,7 @@ int main (int argc, char *argv[])
     // Free memory.
     for (int a = 0; a < 100; a++)
         ptr[a] = '\0';
-    
+
     free(ptr);
 
     return 0;
