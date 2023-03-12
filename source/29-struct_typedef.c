@@ -12,7 +12,7 @@ typedef struct data_s data_t;
 int main (int argc, char *argv[])
 {
     data_t data = {
-        .age = 0, 
+        .age = 0,
         .name = "Iesus"
     };
 
