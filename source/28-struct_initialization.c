@@ -10,7 +10,7 @@ struct data {
 int main (int argc, char *argv[])
 {
     // Initialize all members.
-    struct data dt1 = { 
+    struct data dt1 = {
         .age  = 10,
         .name = "Iesus"
     };
