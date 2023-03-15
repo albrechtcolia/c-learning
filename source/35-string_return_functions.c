@@ -17,7 +17,7 @@ char *func2 ()
 
     if (!s)
         return NULL;
-    
+
     memset(s, '\0', sz);
     sprintf(s, "Iesus Salvator");
 
@@ -41,8 +41,8 @@ int main (int argc, char *argv[])
     }
 
     printf("string: %s\n", string);
-        
-    memset(string, '\0', strlen(string)); 
+
+    memset(string, '\0', strlen(string));
     free(string);
 
     return 0;
