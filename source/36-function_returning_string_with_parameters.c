@@ -10,10 +10,10 @@ char *func1 (char *param)
 
     if (!s)
         return NULL;
-    
+
     memset(s, '\0', sz);
     sprintf(s, "Iesus %s", param);
- 
+
     return s;
 }
 
@@ -23,7 +23,7 @@ int main (int argc, char *argv[])
 
     if (str) {
         printf("func1(): %s\n", str);
-        
+
         memset(str, '\0', strlen(str));
         free(str);
     }
