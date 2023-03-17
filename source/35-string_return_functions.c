@@ -35,7 +35,7 @@ int main (int argc, char *argv[])
     char *string = func2();
 
     if (!string) {
-        printf("malloc failed.\n");
+        printf("Malloc failed.\n");
 
         exit(-1);
     }
