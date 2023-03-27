@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // Load the 'header.h' from the local file.
-#include "header.h" 
+#include "header.h"
 
 int main (int argc, char *argv[])
 {
