@@ -13,7 +13,7 @@ char func1 ()
 char *func2 ()
 {
     int   sz = sizeof(char) * 100;
-    char *s = (char *) malloc(sz);
+    char *s  = (char *) malloc(sz);
 
     if (!s)
         return NULL;
