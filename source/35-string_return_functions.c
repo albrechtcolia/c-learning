@@ -40,7 +40,7 @@ int main (int argc, char *argv[])
         exit(-1);
     }
 
-    printf("string: %s\n", string);
+    printf("String: %s\n", string);
 
     memset(string, '\0', strlen(string));
     free(string);
