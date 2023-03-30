@@ -29,7 +29,7 @@ int main (int argc, char *argv[])
     // Returning a character.
     int ch = func1();
 
-    printf("ch: %c\n", ch);
+    printf("Ch: %c\n", ch);
 
     // Returning a dynamically allocated string.
     char *string = func2();
