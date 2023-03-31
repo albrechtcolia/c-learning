@@ -16,7 +16,7 @@ int main (int argc, char *argv[])
         .name = "Iesus"
     };
 
-    printf("data: %d, %s\n", data.age, data.name);
+    printf("Data: %d, %s\n", data.age, data.name);
 
     return 0;
 }
