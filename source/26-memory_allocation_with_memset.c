@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
     if (!ptr) {
         printf("malloc failed.\n");
         exit(-1);
-    } 
+    }
 
     // Zero memory.
     memset(ptr, '\0', size);
