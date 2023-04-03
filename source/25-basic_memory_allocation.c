@@ -8,7 +8,7 @@ int main (int argc, char *argv[])
     char   *ptr  = (char *) malloc(size);
 
     if (!ptr) {
-        printf("malloc failed.\n");
+        printf("Malloc failed.\n");
         exit(-1);
     }
 
