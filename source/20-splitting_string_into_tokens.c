@@ -20,8 +20,8 @@ int main (int argc, char *argv[])
         else {
             if (b) {
                 str2[b] = '\0';
-                b = 0;    
-                
+                b = 0;
+
                 printf("> %s\n", str2);
             }
         }
