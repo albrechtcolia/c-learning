@@ -7,7 +7,7 @@
 
 int main (int argc, char *argv[])
 {
-    // char.
+    // Char.
     char str[100];
 
     str[0] = 'a';
@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
 
     printf("str = %s\n", str);
 
-    // int.
+    // Int.
     int num[100];
 
     num[0] = 100;
@@ -28,7 +28,7 @@ int main (int argc, char *argv[])
     printf("num = %d\n", num[1]);
     printf("num = %d\n", num[2]);
 
-    // float.
+    // Float.
     float digs[100];
 
     digs[0] = 1.100;
