@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
         str3[a] = '\0';
     }
 
-    // Get the size of 'str1' without the '\0.
+    // Get the size of 'str1' without the '\0'.
     for (size = -1; str1[size+1] != '\0'; size++);
 
     // Splits str1 into two strings.
