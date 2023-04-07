@@ -13,7 +13,7 @@ int main (int argc, char *argv[])
         printf("1 - Value: %d\n", a);
 
         if (a == 5) {
-            printf("Finalizando o loop.\n");
+            printf("Ending the loop.\n");
             break;
         }
     }
@@ -28,7 +28,7 @@ int main (int argc, char *argv[])
 
     for (int a = 0; a < 10; a++) {
         if (a == 5) {
-            printf("Pula o 5.\n");
+            printf("Skip 5.\n");
             continue;
         }
 
