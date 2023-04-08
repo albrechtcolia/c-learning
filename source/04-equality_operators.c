@@ -10,7 +10,7 @@ int main (int argc,char *argv[])
         printf("A is equal to B.\n");
     else if (a == c)
         printf("A is equal to C.\n");
-    else 
+    else
         printf("No valid option.\n");
 
     printf("\n");
@@ -18,7 +18,7 @@ int main (int argc,char *argv[])
     // Not equal.
     if (a != b)
         printf("A isn't equal to B.\n");
-    else 
+    else
         printf("A is equal to B.\n");
 
     return 0;
