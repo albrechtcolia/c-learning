@@ -27,7 +27,7 @@ int main (int argc, char *argv[])
                 token[c] = '\0';
                 c = 0;
 
-                printf("token: %s\n", token);
+                printf("Token: %s\n", token);
             }
 
             if (str[a] == '\0')
