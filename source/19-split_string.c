@@ -20,7 +20,7 @@ int main (int argc, char *argv[])
     // Get the size of 'str1' without the '\0'.
     for (size = -1; str1[size+1] != '\0'; size++);
 
-    // Splits str1 into two strings.
+    // Splits 'str1' into two strings.
     for (int a = 0, b = 0; str1[a] != '\0'; a++) {
         if (a <= (size/2))
             str2[a] = str1[a];
