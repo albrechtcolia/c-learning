@@ -39,7 +39,7 @@ int main (int argc, char *argv[])
     if (flag)
         printf("Strings are equal.\n");
     else
-        printf("Strings aren't equal.\n");
+        printf("Strings are not equal.\n");
 
     return 0;
 }
