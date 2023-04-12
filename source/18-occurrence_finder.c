@@ -28,7 +28,7 @@ int main (int argc, char *argv[])
     if (flag)
         printf("Occurrence found.\n");
     else
-        printf("Couldn't find the occurrence.\n");
+        printf("Could not find the occurrence.\n");
 
     return 0;
 }
