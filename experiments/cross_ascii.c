@@ -28,7 +28,7 @@ int main (int argc, char *argv[]) {
 
                 string[b] = ' ';
             }
-            
+
             printf("%s\n", string);
         }
 
