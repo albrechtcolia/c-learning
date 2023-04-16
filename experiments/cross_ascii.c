@@ -46,7 +46,7 @@ int main (int argc, char *argv[]) {
         }
 
         if (a >= 5 && a <= 14) {
-            for (b = 0; b <= 40; b++) {                
+            for (b = 0; b <= 40; b++) {
                 if (a == 7) {
                     if (b >= 1 && b <= 11 ||
                         b >= 29 && b <= 39)
