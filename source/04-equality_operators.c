@@ -17,7 +17,7 @@ int main (int argc,char *argv[])
 
     // Not equal.
     if (a != b)
-        printf("A isn't equal to B.\n");
+        printf("A is not equal to B.\n");
     else
         printf("A is equal to B.\n");
 
