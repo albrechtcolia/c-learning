@@ -9,27 +9,27 @@ int main (int argc, char *argv[])
 {
     int   flag = 0;
     int   size = sizeof(char) * 100;
-    char *str1 = (char *) malloc(size);
-    char *str2 = (char *) malloc(size);
+    char *str = (char *) malloc(size);
+    char *occr = (char *) malloc(size);
 
     // Malloc failure check.
-    if (!str1 || !str2) {
+    if (!str || !occr) {
         printf("malloc failed.\n");
         exit(-1);
     }
 
-    // Reset 'str1' and 'str2'.
-    memset(str1, '\0', size);
-    memset(str2, '\0', size);
+    // Reset 'str' and 'occr'.
+    memset(str, '\0', size);
+    memset(occr, '\0', size);
 
     // String assignment.
-    sprintf(str1, "Jesus Salvador dos Homens");
-    sprintf(str2, "Salvador");
+    sprintf(str, "Jesus Salvador dos Homens");
+    sprintf(occr, "Salvador");
 
     // Finds occurrence.
-    for (int a = 0; str1[a] != '\0'; a++) {
-        for (int b = 0; str2[b] != '\0'; b++) {
-            if (str2[b] != str1[a + b]) {
+    for (int a = 0; str[a] != '\0'; a++) {
+        for (int b = 0; occr[b] != '\0'; b++) {
+            if (occr[b] != str[a + b]) {
                 flag = 0;
                 break;
             }
@@ -46,6 +46,14 @@ int main (int argc, char *argv[])
         printf("Occurrence found.\n");
     else
         printf("Could not find the occurrence.\n");
+
+    // Reset 'str' and 'occr'.
+    memset(str, '\0', size);
+    memset(occr, '\0', size);
+
+    // Freeing memory.
+    free(str);
+    free(occr);
 
     return 0;
 }
