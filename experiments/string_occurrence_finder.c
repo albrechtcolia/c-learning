@@ -12,15 +12,17 @@ int main (int argc, char *argv[])
     char *str1 = (char *) malloc(size);
     char *str2 = (char *) malloc(size);
 
-    // Checks malloc.
+    // Malloc failure check.
     if (!str1 || !str2) {
         printf("malloc failed.\n");
         exit(-1);
     }
 
+    // Reset 'str1' and 'str2'.
     memset(str1, '\0', size);
     memset(str2, '\0', size);
 
+    // String assignment.
     sprintf(str1, "Jesus Salvador dos Homens");
     sprintf(str2, "Salvador");
 
@@ -39,10 +41,11 @@ int main (int argc, char *argv[])
             break;
     }
 
+    // Occurrence check.
     if (flag)
-        printf("Encontrou a ocorrencia.\n");
+        printf("Occurrence found.\n");
     else
-        printf("Nao encontrou a ocorrencia.\n");
+        printf("Could not find the occurrence.\n");
 
     return 0;
 }
