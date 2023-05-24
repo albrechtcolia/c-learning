@@ -23,8 +23,8 @@ int main (int argc, char *argv[])
     memset(occr, '\0', size);
 
     // String assignment.
-    sprintf(str, "Jesus Salvador dos Homens");
-    sprintf(occr, "Salvador");
+    sprintf(str, "Jesus Hominum Salvator");
+    sprintf(occr, "Salvator");
 
     // Finds occurrence.
     for (int a = 0; str[a] != '\0'; a++) {
