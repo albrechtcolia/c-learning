@@ -3,12 +3,20 @@
 #include <string.h>
 #include <stdlib.h>
 
+// Token extractor.
+
 int main (int argc, char *argv[])
 {
     int   size  = sizeof(char) * 100;
     char *str   = (char *) malloc(size);
     char *occr  = (char *) malloc(size);
     char *token = (char *) malloc(size);
+
+    // Checks malloc.
+    if (!str || !occr || !token) {
+        printf("malloc failed.\n");
+        exit(-1);
+    }
 
     memset(str, '\0', size);
     memset(token, '\0', size);
