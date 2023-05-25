@@ -8,9 +8,9 @@
 
 int main (int argc, char *argv[])
 {
-    char str    [] = "+++In+++principio+++erat+++Verbum";
-    char ocr    [] = "+++";
-    char token  [100];
+    char str[] = "+++In+++principio+++erat+++Verbum";
+    char ocr[] = "+++";
+    char token[100];
 
     for (int a = 0, b = 0, c = 0, flag = 0; ; a++) {
         for (b = 0; ocr[b] != '\0'; b++) {
