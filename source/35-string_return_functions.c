@@ -29,7 +29,7 @@ int main (int argc, char *argv[])
     // Returning a character.
     int ch = func1();
 
-    printf("Ch: %c\n", ch);
+    printf("ch: %c\n", ch);
 
     // Returning a dynamically allocated string.
     char *string = func2();
@@ -40,7 +40,7 @@ int main (int argc, char *argv[])
         exit(-1);
     }
 
-    printf("String: %s\n", string);
+    printf("string: %s\n", string);
 
     memset(string, '\0', strlen(string));
     free(string);
