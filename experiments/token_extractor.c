@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
     memset(token, '\0', size);
     memset(occr, '\0', size);
 
-    sprintf(str, "Iesus Hominibus Salvator");
+    sprintf(str, "Iesus Hominum Salvator");
     sprintf(occr, " ");
 
     for (int a = 0, b = 0, c = 0, flag = 0; ; a++) {
@@ -65,3 +65,5 @@ int main (int argc, char *argv[])
 
     return 0;
 }
+
+
