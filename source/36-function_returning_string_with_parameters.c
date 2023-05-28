@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
     char *str = func1("Salvator <3");
 
     if (str) {
-        printf("Func1(): %s\n", str);
+        printf("func1(): %s\n", str);
 
         memset(str, '\0', strlen(str));
         free(str);
