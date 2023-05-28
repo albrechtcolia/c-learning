@@ -57,8 +57,8 @@ C-learning is my personal personal repository where I cover the most basic C top
 - 17 - Reverse copying strings
 - 18 - Occurrence finder
 - 19 - String splitting
-- 20 - String splitting into tokens
-- 21 - String splitting into tokens when the occurrence is a string
+- 20 - String splitting into tokens (token extractor)
+- 21 - String splitting into tokens when the occurrence is a string (token extractor)
 
 <b>Arrays</b>
 - 22 - One-dimensional array
